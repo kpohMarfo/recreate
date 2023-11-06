@@ -1,0 +1,6 @@
+package com.rafouniq.chatapp
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

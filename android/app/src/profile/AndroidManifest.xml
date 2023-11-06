@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rafouniq.chatapp">
+
+    <application>
+        <activity
+            android:name="com.rafouniq.chatapp.MainActivity"
+            android:exported="true">
+            <!-- Add any other attributes or elements for the MainActivity here -->
+        </activity>
+    </application>
+
+</manifest>
