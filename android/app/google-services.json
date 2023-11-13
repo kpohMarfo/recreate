@@ -20,10 +20,6 @@
             "package_name": "com.rafouniq.chatapp",
             "certificate_hash": "e099f32a2b7dbcd2769dea62000e1b122924daa8"
           }
-        },
-        {
-          "client_id": "833939946288-1goaqjdn2ivg06ll23mrpnvfnqnnt934.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -35,14 +31,14 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "833939946288-1goaqjdn2ivg06ll23mrpnvfnqnnt934.apps.googleusercontent.com",
+              "client_id": "833939946288-aqlmc1upudrq25757o6mlrets15h0i9a.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "833939946288-bc58vbbbk437t2lbf1kk3nk3oju0l1d4.apps.googleusercontent.com",
+              "client_id": "833939946288-5u02kli80mck6638g7p9ifg15005vm6h.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.chatapp.RunnerTests"
+                "bundle_id": "com.rafouniq.chatapp"
               }
             }
           ]

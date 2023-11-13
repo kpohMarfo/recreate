@@ -13,9 +13,8 @@ class IntroductionView extends GetView<IntroductionController> {
       body: IntroductionScreen(
         pages: [
           PageViewModel(
-            title: "Berinteraksi dengan mudah",
-            body:
-                "Kamu hanya perlu di rumah saja",
+            title: "Selamat datang",
+            body: "Pengalaman baru menanti Anda",
             image: Container(
               width: Get.width * 0.6,
               height: Get.width * 0.6,
@@ -27,7 +26,7 @@ class IntroductionView extends GetView<IntroductionController> {
           PageViewModel(
             title: "Temukan hal baru",
             body:
-                "Jika kamu memang jodoh karena aplikasi ini, kami sangat bahagia.",
+                "Kami senang Anda di sini! Temukan keunggulan [Nama Aplikasi] sekarang juga.",
             image: Container(
               width: Get.width * 0.6,
               height: Get.width * 0.6,
@@ -37,8 +36,8 @@ class IntroductionView extends GetView<IntroductionController> {
             ),
           ),
           PageViewModel(
-            title: "Aplikasi bebas biaya",
-            body: "Kamu tidak perlu khawatir, aplikasi ini bebas biaya apapun.",
+            title: "Get Easy",
+            body: "Jadikan hidup Anda lebih mudah.",
             image: Container(
               width: Get.width * 0.6,
               height: Get.width * 0.6,
@@ -49,8 +48,7 @@ class IntroductionView extends GetView<IntroductionController> {
           ),
           PageViewModel(
             title: "Gabung sekarang juga",
-            body:
-                "Daftarkan diri kamu untuk menjadi bagian dari kami. Kami akan menghubungkan dengan 1000 teman lainnya.",
+            body: "Temukan fitur menarik dan desain yang intuitif",
             image: Container(
               width: Get.width * 0.6,
               height: Get.width * 0.6,

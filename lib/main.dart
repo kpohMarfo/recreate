@@ -10,7 +10,13 @@ import 'app/utils/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+        apiKey: "AIzaSyBitcgaz6r__1j0i4txhERgqxBORsibce4",
+        appId: "1:833939946288:android:b961ab9be0fbc2583e66f5",
+        messagingSenderId: "833939946288",
+        projectId: "chatapp-8318c"),
+  );
   await GetStorage.init();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((value) => runApp(MyApp()));
@@ -29,8 +35,10 @@ class MyApp extends StatelessWidget {
             () => GetMaterialApp(
               title: "ChatApp",
               theme: ThemeData(
-                brightness: Brightness.light,
-                primaryColor: Colors.white, colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.black),
+                //  brightness: Brightness.light,
+                primaryColor: Color.fromARGB(255, 255, 255, 190),
+                colorScheme: ColorScheme.fromSwatch().copyWith(
+                    secondary: const Color.fromARGB(255, 248, 248, 248)),
               ),
               initialRoute: authC.isSkipIntro.isTrue
                   ? authC.isAuth.isTrue
